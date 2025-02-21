@@ -51,7 +51,7 @@ Web: <https://bio.neteng.pro>
 
 ## <a id="about-me">🚀 About Me</a>
 
-[<img src="img/sd311.png" width="150px" height="150px" alt="SunDevil311" />](https://github.com/SunDevil311)
+[<img src="static/sd311.png" width="150px" height="150px" alt="SunDevil311" />](https://github.com/SunDevil311)
 
 I'm a Network Security Enginneer specializing in [Palo Alto Networks](https://www.paloaltonetworks.com) solutions, including PAN-OS [Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os) (NGFWs) and [Panorama management server](https://docs.paloaltonetworks.com/panorama).
 
@@ -66,7 +66,7 @@ provide _Best Practices_ documentation for beginners, among other content.
 &nbsp; <!-- space for clarity -->
 
 ## 🔗 Links
-
+.
 |  [![linktr.ee](https://img.shields.io/badge/linktree-43E55E?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/scottlopez)  | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/scottlopez) |
 | :--------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
 | [![mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=Mastodon&logoColor=white)](https://noc.social/@sundevil311) |  [![xda](https://img.shields.io/badge/xda%20developers-2DAAE9?style=for-the-badge&logo=xda-developers&logoColor=white)](https://xda.neteng.pro)   |
@@ -77,7 +77,7 @@ provide _Best Practices_ documentation for beginners, among other content.
 
 ---
 
-| [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/) | [![gnu-gpl](img/gpl3-small.png)](https://www.gnu.org/licenses/gpl-3.0.html) | [![fsf](img/fsf-member.png)](https://my.fsf.org/join?referrer=6725885) |
+| [![cc-by](https://forthebadge.com/images/badges/cc-by.png)](https://creativecommons.org/licenses/by/4.0/) | [![gnu-gpl](static/gpl3-small.png)](https://www.gnu.org/licenses/gpl-3.0.html) | [![fsf](static/fsf-member.png)](https://my.fsf.org/join?referrer=6725885) |
 | :-------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
 
 &nbsp;
