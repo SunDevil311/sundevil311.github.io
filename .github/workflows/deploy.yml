@@ -12,5 +12,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
 
+      - name: Set up Git user
+        run: |
+          git config --global user.email "github@sl.neteng.cc"
+          git config --global user.name "SunDevil311"
+
       - name: Deploy
         uses: kamranahmedse/github-pages-blog-action@v0.0.10
