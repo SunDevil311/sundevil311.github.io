@@ -1,0 +1,16 @@
+name: Build and Deploy
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.2
+
+      - name: Deploy
+        uses: kamranahmedse/github-pages-blog-action@v0.0.10

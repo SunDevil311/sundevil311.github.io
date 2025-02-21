@@ -1,0 +1,24 @@
+{
+  "title": "Network Pro",
+  "subtitle": "Locking down networks, unlocking confidence",
+  "owner": {
+    "name": "Scott Lopez",
+    "email": "contact@neteng.pro"
+  },
+  "social": {
+    "github": "SunDevil311",
+    "twitter": "neteng_pro"
+  },
+  "seo": {
+    "title": "Network Pro",
+    "description": "Locking down networks, unlocking confidence | Networking, Security, Privacy",
+    "author": "Scott Lopez",
+    "keywords": [
+      "blog",
+      "networking",
+      "security",
+      "privacy"
+    ]
+  },
+  "cname": "sundevil.neteng.pro"
+}
