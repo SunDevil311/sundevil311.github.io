@@ -45,17 +45,18 @@ Web: <https://bio.neteng.pro>
 
 # SunDevil311
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Build/Test, Publish to Registries](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/webpack.yml/badge.svg)](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/webpack.yml) [![Deploy to GitHub Pages](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/upload.yml/badge.svg)](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/upload.yml)  
+[![NPM Version](https://img.shields.io/npm/v/%40sundevil311%2Fsd311-web?style=flat&logo=npm&color=blue)](https://www.npmjs.com/package/@sundevil311/sd311-web) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 &nbsp;
 
 <span style="text-align: center;">
 
-**Looking for Network Pro Strategies? We've moved to [https://netwk.pro/](https://netwk.pro/).**
+**Looking for Network Pro Strategies? We've relocated to [netwk.pro](https://netwk.pro/).**
 
 </span>
 
-&nbsp;
+---
 
 <a name="about-me"></a>
 
