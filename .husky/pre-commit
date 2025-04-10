@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# .husky/pre-commit
+#
+# SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+# This file is part of Network Pro.
+
+# Run Mocha and Chai test suite
+npm test
+
+# Lint all JavaScript and TypeScript files
+npx eslint --cache --cache-location .eslintcache --ext .js,.jsx,.ts,.tsx --ignore-pattern node_modules/ --ignore-pattern dist/ .
+
+# Run markdownlint-cli2 on all Markdown files and allow commit to proceed even if there are linting errors
+npx markdownlint-cli2 "**/*.md" "#node_modules/**" "#dist/**" "#pages/**" || true
+
+# Run stylelint against all CSS and SCSS files and allow commit to proceed even if there are linting errors
+npx stylelint "**/*.css" "**/*.scss" || true
+
+# Run prettier against all staged files
+FILES=$(git diff --cached --name-only --diff-filter=ACMR | sed 's| |\\ |g')
+[ -z "$FILES" ] && exit 0
+
+# Prettify all selected files
+echo "$FILES" | xargs ./node_modules/.bin/prettier --ignore-unknown --write
+
+# Add back the modified/prettified files to staging
+echo "$FILES" | xargs git add
+
+git update-index --again
+
+exit 0

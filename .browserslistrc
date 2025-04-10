@@ -1,0 +1,11 @@
+# .browserlistrc
+#
+# SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+#
+# Supported browsers
+
+defaults and fully supports es6-module
+maintained node versions
+last 2 node major versions
+last 2 versions
+not dead
