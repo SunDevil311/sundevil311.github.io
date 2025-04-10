@@ -150,13 +150,13 @@ jobs:
       contents: read
       packages: write
     steps:
-      - name: Set up .npmrc file for GPR
-        run: |
-          echo "@sundevil311:registry=https://npm.pkg.github.com/" > ~/.npmrc
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_SD311 }}" >> ~/.npmrc
+      #- name: Set up .npmrc file for GPR
+      #  run: |
+      #    echo "@sundevil311:registry=https://npm.pkg.github.com/" > ~/.npmrc
+      #    echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
 
       - name: Login to GitHub Package Registry
-        run: npm login --registry=https://npm.pkg.github.com/ --scope=@sundevil311 --always-auth --username "sundevil311" --authToken ${{ secrets.GH_SD311 }}
+        run: npm login --registry=https://npm.pkg.github.com/ --scope=@sundevil311 --always-auth --auth-type=legacy --username "sundevil311" --authToken ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout repository
         uses: actions/checkout@v4.2.2
@@ -196,4 +196,4 @@ jobs:
         working-directory: ./dist
         run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_SD11 }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
