@@ -167,13 +167,6 @@ You should have received a copy of the GNU General Public License along with thi
 
 </code>
 
-<sub>[Back to top](#top)</sub>
-
-- SPDX ID: [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later.html)
-- Canonical URL: [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html)
-
-<sub>[Back to top](#top)</sub>
-
 <a name="changes"></a>
 
 ## 6. Changes to Legal Information
