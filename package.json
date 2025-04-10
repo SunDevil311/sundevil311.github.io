@@ -1,5 +1,5 @@
 {
-  "name": "sd311-web",
+  "name": "@sundevil311/sd311-web",
   "version": "0.0.1",
   "private": false,
   "description": "Locking Down Networks, Unlocking Confidence — Network Pro",
@@ -8,7 +8,8 @@
     "security",
     "privacy",
     "cybersecurity",
-    "consulting"
+    "consulting",
+    "sundevil311"
   ],
   "homepage": "https://sundevil.netwk.pro",
   "bugs": {

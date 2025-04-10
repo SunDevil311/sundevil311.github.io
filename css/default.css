@@ -123,6 +123,47 @@ footer .container {
   }
 }
 
+.lk {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.lk td {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.lk th {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.lk .lk-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (width <= 767px) {
+  .lk {
+    width: auto !important;
+  }
+
+  .lk col {
+    width: auto !important;
+  }
+
+  .lk-wrap {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+  }
+}
+
 /* ==========================================================================
    Custom CSS
 ========================================================================== */

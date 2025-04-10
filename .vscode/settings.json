@@ -17,6 +17,13 @@
     "#cc-by",
     "#gnu-gpl",
     "#bugs",
-    "#features"
+    "#features",
+    "#copyright",
+    "#usage",
+    "#lmaterial",
+    "#licensing",
+    "#dlnotes",
+    "#changes",
+    "#attribute"
   ]
 }
