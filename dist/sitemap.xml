@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- sitemap.xml -->
-
 <!-- SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later -->
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -19,11 +18,11 @@
 
   <url>
 
-    <loc>https://netwk.pro/README.md</loc>
+    <loc>https://sundevil.netwk.pro/README.md</loc>
 
-    <lastmod>2025-04-05</lastmod>
+    <lastmod>2025-04-10</lastmod>
 
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
 
     <priority>0.6</priority>
 
@@ -31,9 +30,9 @@
 
   <url>
 
-    <loc>https://netwk.pro/LICENSE.md</loc>
+    <loc>https://sundevil.netwk.pro/LICENSE.md</loc>
 
-    <lastmod>2025-04-05</lastmod>
+    <lastmod>2025-04-10</lastmod>
 
     <changefreq>monthly</changefreq>
 
@@ -43,9 +42,9 @@
 
   <url>
 
-    <loc>https://netwk.pro/404.html</loc>
+    <loc>https://sundevil.netwk.pro/404.html</loc>
 
-    <lastmod>2025-03-13</lastmod>
+    <lastmod>2025-04-10</lastmod>
 
     <changefreq>yearly</changefreq>
 
