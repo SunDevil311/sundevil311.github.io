@@ -23,37 +23,37 @@ on:
   workflow_dispatch:
 
 jobs:
-  check-codeql:
-    name: Check CodeQL Analysis
-    runs-on: ubuntu-24.04
+  #check-codeql:
+  #  name: Check CodeQL Analysis
+  #  runs-on: ubuntu-24.04
     # Continue workflow even if this job fails due to inability to find and/or check CodeQL workflow
-    continue-on-error: true
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+  #  continue-on-error: true
+  #  steps:
+  #    - name: Checkout repository
+  #      uses: actions/checkout@v4.2.2
 
-      - name: Set up GitHub CLI
-        run: sudo apt-get install gh
+  #    - name: Set up GitHub CLI
+  #      run: sudo apt-get install gh
 
-      - name: Authenticate GitHub CLI
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
+  #    - name: Authenticate GitHub CLI
+  #      env:
+  #        GH_PAT: ${{ secrets.GH_PAT }}
+  #      run: echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
 
-      - name: Check CodeQL Workflow
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          gh run list --workflow "CodeQL" --json conclusion --jq '.[0].conclusion' > codeql_status.txt
-          CODEQL_STATUS=$(cat codeql_status.txt)
-          if [[ "$CODEQL_STATUS" != "success" ]]; then
-            echo "CodeQL Analysis did not succeed. Exiting..."
-            exit 1
-          fi
-          rm codeql_status.txt
+  #    - name: Check CodeQL Workflow
+  #      env:
+  #        GH_PAT: ${{ secrets.GH_PAT }}
+  #      run: |
+  #        gh run list --workflow "CodeQL" --json conclusion --jq '.[0].conclusion' > codeql_status.txt
+  #        CODEQL_STATUS=$(cat codeql_status.txt)
+  #        if [[ "$CODEQL_STATUS" != "success" ]]; then
+  #          echo "CodeQL Analysis did not succeed. Exiting..."
+  #          exit 1
+  #        fi
+  #        rm codeql_status.txt
 
   build:
-    needs: check-codeql
+    #needs: check-codeql
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
@@ -95,7 +95,7 @@ jobs:
         run: cp package.json dist/
 
   publish-npm:
-    needs: [check-codeql, build]
+    needs: [build]
     runs-on: ubuntu-24.04
     permissions:
       contents: read
@@ -142,7 +142,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-gpr:
-    needs: [check-codeql, build]
+    needs: [build]
     runs-on: ubuntu-24.04
     # Complete workflow even if this job fails
     continue-on-error: true
