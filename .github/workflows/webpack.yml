@@ -101,6 +101,9 @@ jobs:
       contents: read
       packages: write
     steps:
+      - name: Login to npmjs registry
+        run: npm login --registry=https://registry.npmjs.org/ --scope=@sundevil311 --always-auth --auth-type=legacy --username "sundevil311" --authToken ${{ secrets.NPM_SD311 }}
+
       - name: Checkout repository
         uses: actions/checkout@v4.2.2
 
@@ -139,7 +142,7 @@ jobs:
         working-directory: ./dist
         run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_SD311 }}
 
   publish-gpr:
     needs: [build]
@@ -150,11 +153,6 @@ jobs:
       contents: read
       packages: write
     steps:
-      #- name: Set up .npmrc file for GPR
-      #  run: |
-      #    echo "@sundevil311:registry=https://npm.pkg.github.com/" > ~/.npmrc
-      #    echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
-
       - name: Login to GitHub Package Registry
         run: npm login --registry=https://npm.pkg.github.com/ --scope=@sundevil311 --always-auth --auth-type=legacy --username "sundevil311" --authToken ${{ secrets.GITHUB_TOKEN }}
 
