@@ -1,5 +1,9 @@
-// eslint.config.mjs
-// SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+/* ==========================================================================
+eslint.config.mjs
+
+SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
+This file is part of Network Pro.
+========================================================================== */
 
 import js from "@eslint/js";
 import eslintConfigPrettier from "eslint-config-prettier";
@@ -13,9 +17,11 @@ const IGNORED_FILES = [
   "**/dist/**",
   "**/node_modules/**",
   "**/assets/license/**",
+  "**/coverage/**",
   "**/babel.config.json",
   "**/package.json",
   "**/package-lock.json",
+  "**/stylelint.config.js",
 ];
 
 const GLOBALS = {

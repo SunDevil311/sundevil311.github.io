@@ -46,7 +46,7 @@ Web: <https://bio.neteng.pro>
 # SunDevil311
 
 [![Build/Test, Publish to Registries](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/webpack.yml/badge.svg)](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/webpack.yml) [![Deploy to GitHub Pages](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/upload.yml/badge.svg)](https://github.com/SunDevil311/sundevil311.github.io/actions/workflows/upload.yml)  
-[![NPM Version](https://img.shields.io/npm/v/%40sundevil311%2Fsd311-web?style=flat&logo=npm&color=blue)](https://www.npmjs.com/package/@sundevil311/sd311-web) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![NPM Version](https://img.shields.io/npm/v/%40sundevil311%2Fsd311-web?style=flat&logo=npm&color=blue)](https://www.npmjs.com/package/@sundevil311/sd311-web) [![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 &nbsp;
 
@@ -63,11 +63,10 @@ We've relocated to [netwk.pro](https://netwk.pro/).**
 
 ## 🚀 About Me
 
-**GitHub Profile:**  
 [<img src="img/sd311.png" width="150px" height="150px" alt="SunDevil311" />](https://github.com/SunDevil311)  
-[https://github.com/SunDevil311](https://github.com/SunDevil311)
+**[https://github.com/SunDevil311](https://github.com/SunDevil311)**
 
-I am a **Network Security & Cybersecurity Engineer** with **10+ years of experience** designing, implementing, and securing complex network infrastructures. My passion lies in advancing cybersecurity standards through continuous innovation, ensuring that businesses stay ahead of evolving threats with **secure, scalable, and efficient solutions**.
+I am a **Network Security & Cybersecurity Specialist** with **10+ years of experience** designing, implementing, and securing complex network infrastructures. My passion lies in advancing cybersecurity standards through continuous innovation, ensuring that businesses stay ahead of evolving threats with **secure, scalable, and efficient solutions**.
 
 With expertise in **global and regional projects**, I specialize in building resilient security architectures that fortify networks against modern cyber threats while optimizing performance.
 
@@ -81,15 +80,13 @@ With expertise in **global and regional projects**, I specialize in building res
 - [PAN-OS Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os)
 - [Panorama](https://docs.paloaltonetworks.com/panorama)
 
-Let’s work together to **enhance your network security posture** and create a future-ready cybersecurity strategy.
+Let’s work together to **enhance your security posture** and create a future-ready cybersecurity strategy. Take the next step today at **[Network Pro Strategies](https://netwk.pro)**.
 
 &nbsp;
 
 ### 🤖 Android
 
-With nearly a decade of experience in Android development, I have a strong passion for integrating Free and Open-Source Software (FOSS) into my workflow.
-
-My journey began with a desire to replace proprietary apps with open-source alternatives, and ever since, I’ve been exploring and curating the best FOSS
+With nearly a decade of experience in Android development, I have a strong passion for integrating Free and Open-Source Software (FOSS) into my workflow. My journey began with a desire to replace proprietary apps with open-source alternatives, and ever since, I’ve been exploring and curating the best FOSS
 apps available.
 
 &nbsp; <!-- space for clarity -->

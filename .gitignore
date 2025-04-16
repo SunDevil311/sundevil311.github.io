@@ -7,14 +7,10 @@
 
 
 ### Custom Ignores ###
-.github/workflows/disabled/
-.orig/
 .webpack_cache/
-docs/
+.orig/
 python-venv/
-crypto.mjs
-server.mjs
-tests.mjs
+docs/
 
 
 ### Node ###
