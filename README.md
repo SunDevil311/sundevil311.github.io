@@ -52,7 +52,8 @@ Web: <https://bio.neteng.pro>
 
 <span style="text-align: center;">
 
-**Looking for Network Pro Strategies? We've relocated to [netwk.pro](https://netwk.pro/).**
+**Looking for Network Pro Strategies?  
+We've relocated to [netwk.pro](https://netwk.pro/).**
 
 </span>
 
@@ -62,19 +63,33 @@ Web: <https://bio.neteng.pro>
 
 ## 🚀 About Me
 
-[<img src="img/sd311-950.png" width="150px" height="150px" alt="SunDevil311 Logo" />](https://github.com/SunDevil311)
+**GitHub Profile:**  
+[<img src="img/sd311.png" width="150px" height="150px" alt="SunDevil311" />](https://github.com/SunDevil311)  
+[https://github.com/SunDevil311](https://github.com/SunDevil311)
 
-I am an experienced Network Security and Cybersecurity Engineer with over 10 years of experience in designing, implementing, and securing complex network infrastructure. Passionate about advancing network and cyber security standards through continous innovation, with expertise driving secure, scalable, and efficient infrastructures across global and regional projects.
+I am a **Network Security & Cybersecurity Engineer** with **10+ years of experience** designing, implementing, and securing complex network infrastructures. My passion lies in advancing cybersecurity standards through continuous innovation, ensuring that businesses stay ahead of evolving threats with **secure, scalable, and efficient solutions**.
 
-Systems that I specialize in:
+With expertise in **global and regional projects**, I specialize in building resilient security architectures that fortify networks against modern cyber threats while optimizing performance.
+
+<!-- markdownlint-disable MD001 -->
+
+#### **Technologies & Systems I Specialize In:**
+
+<!-- markdownlint-enable MD001 -->
 
 - [Palo Alto Networks](https://www.paloaltonetworks.com)
 - [PAN-OS Next-Gen Firewalls](https://docs.paloaltonetworks.com/pan-os)
 - [Panorama](https://docs.paloaltonetworks.com/panorama)
 
-With several years of experience in Android development, I have a strong passion
-for integrating Free/Libre and Open Source Software (FLOSS) into my workflow. My
-journey began with a desire to replace proprietary apps with open source alternatives, and ever since, I’ve been exploring and curating the best FLOSS
+Let’s work together to **enhance your network security posture** and create a future-ready cybersecurity strategy.
+
+&nbsp;
+
+### 🤖 Android
+
+With nearly a decade of experience in Android development, I have a strong passion for integrating Free and Open-Source Software (FOSS) into my workflow.
+
+My journey began with a desire to replace proprietary apps with open-source alternatives, and ever since, I’ve been exploring and curating the best FOSS
 apps available.
 
 &nbsp; <!-- space for clarity -->
@@ -100,6 +115,6 @@ apps available.
 
 Copyright &copy; 2025 **[Scott Lopez](https://bio.neteng.pro)**
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the [Free Software Foundation](https://www.fsf.org), either version 3 of the License, or (at your option) any later version.
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published by the [Free Software Foundation](https://fsf.org), either version 3 of the License, or (at your option) any later version.
 
 </span>
