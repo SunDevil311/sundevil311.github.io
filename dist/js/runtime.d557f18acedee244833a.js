@@ -13,7 +13,7 @@
         if (!n) {
             var i = 1 / 0;
             for (f = 0; f < r.length; f++) {
-                for (var [n, t, s] = r[f], a = !0, l = 0; l < n.length; l++) (!1 & s || i >= s) && Object.keys(o.O).every((r => o.O[r](n[l]))) ? n.splice(l--, 1) : (a = !1, 
+                for (var [n, t, s] = r[f], a = !0, l = 0; l < n.length; l++) (!1 & s || i >= s) && Object.keys(o.O).every(r => o.O[r](n[l])) ? n.splice(l--, 1) : (a = !1, 
                 s < i && (i = s));
                 if (a) {
                     r.splice(f--, 1);
@@ -33,7 +33,7 @@
         o.O.j = e => 0 === r[e];
         var e = (e, n) => {
             var t, s, [i, a, l] = n, v = 0;
-            if (i.some((e => 0 !== r[e]))) {
+            if (i.some(e => 0 !== r[e])) {
                 for (t in a) o.o(a, t) && (o.m[t] = a[t]);
                 if (l) var f = l(o);
             }

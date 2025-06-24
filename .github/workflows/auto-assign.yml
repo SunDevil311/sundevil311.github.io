@@ -1,12 +1,20 @@
 # .github/workflows/auto-assign.yml
 #
+# Copyright © 2025 Network Pro Strategies (Network Pro™)
 # SPDX-License-Identifier: CC-BY-4.0 OR GPL-3.0-or-later
 # This file is part of Network Pro
 #
 # This workflow will auto-assign an issue or PR to a specific user
 # when a new issue or PR is opened.
 
-name: Auto Assign
+# cspell:ignore pozil
+
+name: 'Auto Assign'
+
+permissions:
+  issues: write
+  contents: read
+  pull-requests: write
 
 on:
   issues:
@@ -18,15 +26,11 @@ jobs:
   auto-assign:
     runs-on: ubuntu-24.04
 
-    permissions:
-      issues: write
-      pull-requests: write
-
     steps:
-      - name: "Auto-assign issue or PR"
-        uses: pozil/auto-assign-issue@v2.2.0
+      - name: 'Auto-assign issue or PR'
+        uses: pozil/auto-assign-issue@v2
         with:
-          repo-token: ${{ secrets.SD311 }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: SunDevil311
           numOfAssignee: 1
           allowSelfAssign: true
