@@ -57,16 +57,16 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4.3.0
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
           check-latest: true
 
       - name: Cache Node.js modules
-        uses: actions/cache@v4.2.3
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-lts-build-${{ hashFiles('package-lock.json') }}
@@ -105,17 +105,17 @@ jobs:
         run: npm login --registry=https://registry.npmjs.org/ --scope=@sundevil311 --always-auth --auth-type=legacy --username "sundevil311" --authToken ${{ secrets.NPM_SD311 }}
 
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4.3.0
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
           check-latest: true
 
       - name: Cache Node.js modules
-        uses: actions/cache@v4.2.3
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-lts-publish-${{ hashFiles('package-lock.json') }}
@@ -157,17 +157,17 @@ jobs:
         run: npm login --registry=https://npm.pkg.github.com/ --scope=@sundevil311 --always-auth --auth-type=legacy --username "sundevil311" --authToken ${{ secrets.GITHUB_TOKEN }}
 
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4.3.0
+        uses: actions/setup-node@v4
         with:
           node-version: lts/*
           registry-url: https://npm.pkg.github.com/
           check-latest: true
 
       - name: Cache Node.js modules
-        uses: actions/cache@v4.2.3
+        uses: actions/cache@v4
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-lts-publish-${{ hashFiles('package-lock.json') }}

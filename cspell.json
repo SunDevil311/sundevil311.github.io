@@ -1,0 +1,21 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": ["globalthis", "npmjs", "sundevil", "vite"],
+  "ignorePaths": [
+    ".gitignore",
+    ".gitattributes",
+    "sitemap.xml",
+    "robots.txt",
+    "css/**",
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/.svelte-kit/**",
+    "**/.vite/**",
+    "**/coverage/**",
+    "**/playwright-report/**"
+  ],
+  "ignoreWords": [],
+  "enableFiletypes": ["javascript", "typescript", "json", "markdown", "html"],
+  "useGitignore": true
+}
